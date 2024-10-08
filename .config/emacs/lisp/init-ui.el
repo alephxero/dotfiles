@@ -1,5 +1,7 @@
 ;;; -*- lexical-binding: t; -*-
 
+(set-frame-parameter (selected-frame) 'internal-border-width 16)
+
 (defun alwm/disable-active-themes ()
   "disable all active themes"
   (dolist (i custom-enabled-themes)

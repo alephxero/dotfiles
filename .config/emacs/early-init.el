@@ -6,6 +6,4 @@
 
 (setopt process-adaptive-read-buffering nil)
 
-(set-frame-parameter (selected-frame) 'internal-border-width 16)
-
 (provide 'early-init)

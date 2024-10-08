@@ -1,0 +1,31 @@
+#+TITLE: Dotfiles README
+#+AUTHOR: Alastair Williams
+
+* About
+
+Basic emacs and zsh config.
+
+* Emacs
+
+Notable features of my configuration:
+- Configuration is done through elisp named features
+- Uses ~orderless~ and ~fido-vertical-mode~ for completions
+- Uses ~eglot~ for lsp support along with ~treesit-auto~ to make it
+  easier to install treesitter grammars
+
+** Screenshot
+
+[[file:screenshots/emacs.png]]
+
+* Zsh
+
+Notable features:
+- Status indicator in prompt: teal for success and red for failure
+- Two directory levels in prompt
+- ~#~ prompt when root and ~>~ otherwise
+- Up and Down arrows search through history for commands starting
+  with the value in current line
+
+** Screenshot
+
+[[file:screenshots/zsh.png]]
